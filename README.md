@@ -16,6 +16,19 @@ Publisher and creator credit: [gentt1024](https://github.com/gentt1024).
 
 The ZIP contains only `pet.json` and `spritesheet.png` at its root. The first public release is **v1.0.0**. `spriteVersionNumber: 2` identifies the atlas layout version.
 
+## Outfit skins
+
+These four completed October 13, 2026 skins keep the original actions and helper crew. Each package has its own identity and contains only `pet.json` and `spritesheet.png` at the ZIP root. The original **v1.0.0** release remains available above.
+
+| Outfit | Skin | Install package | Animation preview |
+| --- | --- | --- | --- |
+| B | Green hoodie | [Download ZIP](https://raw.githubusercontent.com/gentt1024/poteto/main/skins/green-hoodie/poteto-green-hoodie.zip) | [Preview](skins/green-hoodie/preview.gif) |
+| C | Yellow raincoat | [Download ZIP](https://raw.githubusercontent.com/gentt1024/poteto/main/skins/yellow-raincoat/poteto-yellow-raincoat.zip) | [Preview](skins/yellow-raincoat/preview.gif) |
+| D | Cream chef | [Download ZIP](https://raw.githubusercontent.com/gentt1024/poteto/main/skins/cream-chef/poteto-cream-chef.zip) | [Preview](skins/cream-chef/preview.gif) |
+| E | Greige sleeveless | [Download ZIP](https://raw.githubusercontent.com/gentt1024/poteto/main/skins/greige-sleeveless/poteto-greige-sleeveless.zip) | [Preview](skins/greige-sleeveless/preview.gif) |
+
+To install a skin, download its ZIP, extract the two files, and place them together in `~/.codex/pets/<skin-id>/`, where `<skin-id>` matches the `id` in its `pet.json` (for example, `poteto-green-hoodie`). Back up an existing folder first, then reopen Codex. Compatibility with your Codex version should be checked as described below.
+
 ## Contents
 
 - Nine standard animation states plus sixteen look directions, 73 valid frames.
